@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kokoro Creative | 土手こころ Official Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,900;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styel.css">
+</head>
+<body>
+
+    <!-- Splash Screen -->
+    <div id="splash">
+        <div class="splash-inner">
+            <div class="splash-title uppercase">Kokoro Creative</div>
+            <p class="text-xs tracking-[0.8em] text-gray-400 mt-4">EST. 2026</p>
+        </div>
+    </div>
+
+    <!-- Marquee Background (最適化したタイポグラフィ) -->
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <!-- Loop -->
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="fixed top-0 left-0 w-full z-50 p-8 flex justify-between items-center mix-blend-difference text-white">
+        <div class="font-bold tracking-widest uppercase text-lg">Kokoro Creative</div>
+        <nav class="hidden md:flex gap-10 text-xs font-bold uppercase tracking-widest">
+            <a href="#concept-1" class="hover:opacity-50">Health</a>
+            <a href="#concept-2" class="hover:opacity-50">Origin</a>
+            <a href="#concept-3" class="hover:opacity-50">Future</a>
+            <a href="#concept-4" class="hover:opacity-50">Now</a>
+        </nav>
+        <div class="md:hidden text-xs font-bold uppercase">Menu</div>
+    </header>
+
+    <!-- Hero Swiper (山人-oga-風) -->
+    <section>
+        <div class="swiper main-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=2000&auto=format&fit=crop" alt="[宣材写真1]">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-text">
+                        <h2 class="text-5xl md:text-8xl font-black italic mb-4">Embrace Yourself.</h2>
+                        <p class="tracking-[0.3em] uppercase text-sm">土手こころ | セルフケア・クリエイター</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2000&auto=format&fit=crop" alt="[宣材写真2]">
+                    <div class="hero-overlay"></div>
+                    <div class="hero-text">
+                        <h2 class="text-5xl md:text-8xl font-black italic mb-4">Create Your Heart.</h2>
+                        <p class="tracking-[0.3em] uppercase text-sm">心の健康を、自ら創り出す。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination !left-10 !text-left !w-auto !bottom-10"></div>
+        </div>
+    </section>
+
+    <!-- Main Content Grid -->
+    <main class="max-w-6xl mx-auto px-6 py-40">
+        
+        <!-- Section 1: 心の健康 -->
+        <section id="concept-1" class="content-card reveal">
+            <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1000&auto=format&fit=crop" alt="[心の健康をイメージした宣材写真]">
+            </div>
+            <div class="card-body">
+                <div class="section-num">01</div>
+                <h3 class="text-3xl font-bold mb-6">心の健康とは？</h3>
+                <p class="leading-relaxed text-gray-600">
+                    私にとっての「心の健康」とは、単に悩みがない状態ではありません。それは、自分の心の揺らぎを認め、自分で自分をご機嫌にできる力。完璧を目指すのではなく、今の自分を愛し、丁寧に調律していくプロセスそのものです。
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 2: 事業のきっかけ -->
+        <section id="concept-2" class="content-card reverse reveal">
+            <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000&auto=format&fit=crop" alt="[事業への想いを表現した宣材写真]">
+            </div>
+            <div class="card-body">
+                <div class="section-num">02</div>
+                <h3 class="text-3xl font-bold mb-6">個人事業主としての歩み</h3>
+                <p class="leading-relaxed text-gray-600">
+                    2026年3月の大学卒業を機に、私は「自分の看板」で生きることを決めました。誰かの用意した物語ではなく、自分の言葉で、自分の想いを世の中に届けたい。そんな純粋な衝動が、『Kokoro Creative』の始まりでした。
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 3: 目指す未来 -->
+        <section id="concept-3" class="content-card reveal">
+            <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1499728603263-13726abce5fd?q=80&w=1000&auto=format&fit=crop" alt="[未来を見つめる宣材写真]">
+            </div>
+            <div class="card-body">
+                <div class="section-num">03</div>
+                <h3 class="text-3xl font-bold mb-6">私たちが目指す未来</h3>
+                <p class="leading-relaxed text-gray-600">
+                    誰もが自分の弱さを愛し、自分らしく咲ける社会。SNSのキラキラした部分だけでなく、泥臭い挑戦や不器用な日々も肯定できる、そんな優しさの連鎖を広げていきたいと考えています。
+                </p>
+            </div>
+        </section>
+
+        <!-- Section 4: 今、やりたいこと -->
+        <section id="concept-4" class="content-card reverse reveal">
+            <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1000&auto=format&fit=crop" alt="[今の挑戦を伝える宣材写真]">
+            </div>
+            <div class="card-body">
+                <div class="section-num">04</div>
+                <h3 class="text-3xl font-bold mb-6">今まずやりたいこと</h3>
+                <p class="leading-relaxed text-gray-600">
+                    Instagramでの「こころん・きれいに・チャレンジ」を軸に、フォロワーの皆さんと深い対話ができる場所を作ること。そして、日々の小さな「整え習慣」を具体的にメソッド化し、より多くの人に届けていくことが今の最優先の挑戦です。
+                </p>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="text-center py-20 bg-gray-50 rounded-[60px] reveal">
+            <h2 class="text-4xl font-bold mb-8">Follow the Story.</h2>
+            <p class="mb-10 text-gray-500">Instagramで毎日のチャレンジを発信しています</p>
+            <a href="https://www.instagram.com/kokoron_kirei_challenge" target="_blank" class="btn-insta">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.999 0h.002zm-.506 1.417c.822-.037 1.071-.045 3.063-.045 1.993 0 2.242.008 3.064.045.759.035 1.17.162 1.444.269.364.141.624.308.897.581.272.273.44.533.582.897.107.275.234.686.27 1.445.037.822.045 1.071.045 3.063 0 1.993-.008 2.242-.045 3.064-.035.759-.162 1.17-.269 1.444a2.82 2.82 0 0 1-.581.897 2.816 2.816 0 0 1-.897.581c-.275.108-.686.234-1.445.27-.822.037-1.071.045-3.063.045-1.993 0-2.242-.008-3.064-.045-.759-.035-1.17-.162-1.444-.269a2.81 2.81 0 0 1-.897-.581 2.815 2.815 0 0 1-.581-.897c-.108-.275-.234-.686-.27-1.445-.038-.822-.046-1.07-.046-3.063 0-1.993.008-2.242.046-3.064.036-.759.162-1.17.269-1.444.141-.364.309-.624.581-.897.273-.272.533-.44.897-.582.275-.107.686-.234 1.445-.27zm.506 5.127a3.456 3.456 0 1 0 0 6.912 3.456 3.456 0 0 0 0-6.912zm0 5.495a2.039 2.039 0 1 1 0-4.078 2.039 2.039 0 0 1 0 4.078zm5.238-7.813a.92.92 0 1 0 0 1.84.92.92 0 0 0 0-1.84z"/>
+                </svg>
+                Instagramへ
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="py-20 text-center text-gray-400 text-xs tracking-widest uppercase">
+        &copy; 2026 Kokoro Creative.
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        // Splash dismissal
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('splash').classList.add('loaded');
+                document.body.style.overflow = 'auto';
+            }, 2200);
+        });
+
+        // Initialize Swiper
+        const swiper = new Swiper(".main-swiper", {
+            loop: true,
+            speed: 2000,
+            effect: 'fade',
+            autoplay: { delay: 5000, disableOnInteraction: false },
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+        });
+
+        // Scroll Reveal (Intersection Observer)
+        const revealCallback = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        };
+        const revealObserver = new IntersectionObserver(revealCallback, { threshold: 0.2 });
+        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+        // Smooth Scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
