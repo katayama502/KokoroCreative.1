@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT | Kokoro Creative</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,900;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styel.css">
+</head>
+<body class="bg-[#fdfdfd]">
+
+    <!-- Splash Screen -->
+    <div id="splash">
+        <div class="splash-inner">
+            <div class="splash-title uppercase">Kokoro Creative</div>
+            <p class="text-xs tracking-[0.8em] text-gray-400 mt-4">EST. 2026</p>
+        </div>
+    </div>
+
+    <!-- Marquee Background -->
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <!-- Loop -->
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+            <div class="vertical-text">KOKOROCREATIVE</div>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="fixed top-0 left-0 w-full z-50 p-8 flex justify-between items-center mix-blend-difference text-white">
+        <a href="index.html" class="font-bold tracking-widest uppercase text-lg">Kokoro Creative</a>
+        
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex gap-10 text-xs font-bold uppercase tracking-widest">
+            <a href="index.html#concept-1" class="hover:opacity-50">Health</a>
+            <a href="index.html#concept-2" class="hover:opacity-50">Origin</a>
+            <a href="index.html#concept-3" class="hover:opacity-50">Future</a>
+            <a href="index.html#concept-4" class="hover:opacity-50">Now</a>
+            <a href="contact.html" class="hover:opacity-50 border-b border-white pb-1">Contact</a>
+        </nav>
+
+        <!-- Mobile Hamburger -->
+        <div class="hamburger md:hidden" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <!-- Overlay Menu -->
+    <div class="menu-overlay" id="menuOverlay">
+        <nav class="menu-nav">
+            <a href="index.html#concept-1" class="menu-link">Health</a>
+            <a href="index.html#concept-2" class="menu-link">Origin</a>
+            <a href="index.html#concept-3" class="menu-link">Future</a>
+            <a href="index.html#concept-4" class="menu-link">Now</a>
+            <a href="contact.html" class="menu-link">Contact</a>
+        </nav>
+    </div>
+
+    <main class="max-w-4xl mx-auto px-6 pt-40 pb-20">
+        
+        <!-- Hero Section -->
+        <section class="text-center mb-20 reveal">
+            <h1 class="text-6xl md:text-8xl font-black italic mb-6 family-serif">Contact</h1>
+            <p class="tracking-[0.5em] uppercase text-sm text-gray-500">お問い合わせ</p>
+        </section>
+
+        <!-- Business Card Download Section -->
+        <section class="mb-32 reveal bg-white p-12 rounded-[40px] shadow-sm border border-gray-100 flex flex-col md:row items-center gap-10">
+            <div class="w-full md:w-1/2">
+                <div class="section-num">CARD</div>
+                <h2 class="text-3xl font-bold mb-6">Digital Business Card</h2>
+                <p class="text-gray-600 leading-relaxed mb-8">
+                    土手こころの名刺（デジタル版）をこちらからダウンロードいただけます。
+                    オフラインでの交流や、連絡先の保管にご活用ください。
+                </p>
+                <!-- Placeholder for business card download -->
+                <a href="img/m1.JPG" download class="inline-flex items-center gap-4 bg-black text-white px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform">
+                    <span>DOWNLOAD CARD</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="w-full md:w-1/2 flex justify-center">
+                <div class="bg-gray-50 p-6 rounded-2xl border-2 border-dashed border-gray-200">
+                    <img src="img/m1.JPG" alt="Business Card Preview" class="w-full max-w-[320px] rounded-lg shadow-md opacity-50 grayscale">
+                    <p class="text-[10px] text-center mt-4 text-gray-400">※画像はイメージです。ダウンロードして実物をご確認ください。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="reveal">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Message</h2>
+                <p class="text-gray-500">お仕事の依頼やメッセージはこちらからお送りください</p>
+            </div>
+
+            <div class="max-w-3xl mx-auto google-form-container bg-white p-4 rounded-[40px] shadow-sm border border-gray-100 overflow-hidden">
+                <!-- Replace the SRC below with your actual Google Form embed URL -->
+                <iframe 
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSfDmsY99Ua8K-rWq_0rXJ-XnL-XXXXX/viewform?embedded=true" 
+                    width="100%" 
+                    height="800" 
+                    frameborder="0" 
+                    marginheight="0" 
+                    marginwidth="0"
+                    class="rounded-[30px]"
+                >
+                    読み込んでいます…
+                </iframe>
+                <div class="text-center py-4 text-[10px] text-gray-400">
+                    ※Googleフォームが表示されない場合は再読み込みしてください。
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-20 text-center text-gray-400 text-xs tracking-widest uppercase">
+        &copy; 2026 Kokoro Creative.
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Splash dismissal
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('splash').classList.add('loaded');
+                document.body.style.overflow = 'auto';
+            }, 1000); // Redirects usually feel better with shorter splash
+        });
+
+        // Scroll Reveal
+        const revealCallback = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        };
+        const revealObserver = new IntersectionObserver(revealCallback, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+        // Hamburger Toggle
+        const hamburger = document.getElementById('hamburger');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const menuLinks = document.querySelectorAll('.menu-link');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            menuOverlay.classList.toggle('active');
+            if (menuOverlay.classList.contains('active')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                menuOverlay.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            });
+        });
+    </script>
+</body>
+</html>
