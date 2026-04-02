@@ -9,6 +9,13 @@ font-family: 'Noto Sans JP', sans-serif;
 background-color: var(--bg-color);
 color: var(--text-main);
 overflow-x: hidden;
+/* Custom Heart Cursor - Chic Black & White */
+cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="black" stroke="white" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>') 12 12, auto;
+}
+
+/* For clickable elements, use a similar but slightly different heart or just the same */
+a, button, [role="button"], #hamburger, .social-icon-link {
+cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white" stroke="black" stroke-width="1.5"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>') 12 12, pointer;
 }
 
 /* Loading Splash (山人-oga-風) */
@@ -330,4 +337,27 @@ object-fit: contain;
 /* Hamburger Mix-Blend Fix */
 .header-container {
     mix-blend-mode: difference;
+}
+
+/* Heart Dispersion Particle */
+.heart-particle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 10002;
+    font-size: 20px;
+    user-select: none;
+    animation: heart-dispersion 1s forwards ease-out;
+}
+
+@keyframes heart-dispersion {
+    0% {
+        transform: translate(-50%, -50%) scale(0.5) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(var(--x), var(--y)) scale(1.5) rotate(var(--r));
+        opacity: 0;
+    }
 }
